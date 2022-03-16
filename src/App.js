@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Header />
         <main className="py-3">
           <Container>

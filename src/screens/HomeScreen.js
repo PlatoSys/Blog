@@ -4,7 +4,7 @@ function HomeScreen() {
 
   return (
       <React.Fragment>
-        <h1>Blog ... Maintaining</h1>
+        <h1>Blog ...</h1>
       </React.Fragment>
   );
 }

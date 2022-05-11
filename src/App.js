@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app">
       <Router basename={process.env.PUBLIC_URL}>
-        <Header />
+        {/* <Header /> */}
         <main className="py-3">
           <Container>
             <Routes>
